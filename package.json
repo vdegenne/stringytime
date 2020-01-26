@@ -1,0 +1,24 @@
+{
+  "name": "stringytime",
+  "version": "1.0.0",
+  "description": "Utility package to convert human readable timestrings to various time values",
+  "typings": "stringytime.d.ts",
+  "source": "stringytime.mjs",
+  "main": "lib/stringytime.js",
+  "module": "lib/stringytime.mjs",
+  "keywords": [
+    "string",
+    "time",
+    "convenience"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "test": "npm run build && node ./test.js"
+  },
+  "author": "Valentin Degenne",
+  "license": "ISC",
+  "devDependencies": {
+    "clang-format": "^1.3.0",
+    "microbundle": "^0.11.0"
+  }
+}
