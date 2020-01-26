@@ -1,6 +1,6 @@
 {
   "name": "stringytime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility package to convert human readable timestrings to various time values",
   "typings": "stringytime.d.ts",
   "source": "stringytime.mjs",

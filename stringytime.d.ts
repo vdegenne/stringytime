@@ -1,1 +1,2 @@
-export function toSeconds(stringtime: string);
+export function toMilliseconds(stringtime: string);
+export {toMilliseconds as toMs};
